@@ -3,7 +3,7 @@ First repository, for IB Computer Science
 
 Hello, and thank you for visiting this repository today. 
 
-[Syllabus](comp-sci-gen/IB-DP-CS-syllabus.md "Syllabus")
+[Syllabus](https://parencla000.github.io/comp-sci-gen/IB-DP-CS-syllabus.md "Syllabus")
 
 
 
