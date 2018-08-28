@@ -7,7 +7,7 @@ Hello, and thank you for visiting this repository today.
 
 [Course Description](https://parencla000.github.io/comp-sci-gen/IB-DP-CompSci "Course Description")
 
-[Notes](https://parencla000.github.io/comp-sci-gen/notes "Notes")
+[Notes](https://parencla000.github.io/comp-sci-gen/analyticenginenotes "Notes")
 
 
 
