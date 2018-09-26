@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Fortune
+  </title>
+
+  <script>
+  var fortunes = [
+  "You will die soon", "You will no longer be happy", "Your friends will abandon you in your time of need", "You will face great financial hardship", "You should avoid trains next week", "Sample Text"]
+  </script>
+  <script>
+  function changeFortune(fortune){
+  document.getElementById("text1").innerHTML = fortunes [fortune];
+
+  }
+  var white= [
+    "white"
+  ]
+  var red=[
+    "#a1000"
+  ]
+  var black=[
+    "black"
+  ]
+
+  function changeColor1(white){
+      document.getElementById("spade").setAttribute("fill", "white") = white;
+      document.getElementById("club").setAttribute("fill", "black") = black;
+      document.getElementById("heart").setAttribute("fill", "#a1000") = red;
+      document.getElementById("diamond").setAttribute("fill", "#a1000") = red;
+
+
+
+  }
+  function changeColor2(white){
+      document.getElementById("club").setAttribute("fill", "white") = white;
+  }
+  var color3= [
+    "white"
+  ]
+  function changeColor3(white){
+      document.getElementById("diamond").setAttribute("fill", "white") = white;
+  }
+  var color4= [
+    "white"
+  ]
+  function changeColor4(white){
+      document.getElementById("heart").setAttribute("fill", "white") = white;
+
+  }
+  </script>
+</head>
+<body>
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="canvas1" height="400" width="581" y="0" x="-0.5" stroke-width="0" stroke="#000" fill="#005682"/>
+  <path id="spade" onclick= "changeFortune(1), changeColor1(white)"d="m33.434892,140.314637c7.093493,-6.84535 12.280552,-15.513875 16.62684,-24.297216c2.655049,-3.503202 0.141375,-6.567974 -3.474957,-3.597316c-9.293925,6.205378 -21.945095,8.333379 -32.007693,2.672061c-11.375387,-5.882211 -16.505075,-19.869477 -13.924104,-32.057144c1.6345,-12.351134 10.623918,-22.032464 20.384292,-28.986817c11.211935,-8.020539 23.319431,-14.905812 33.566489,-24.193228c4.278597,0.085772 7.498621,6.799865 12.103319,8.576561c12.226721,9.106902 26.716499,15.810321 36.344681,27.987932c4.864329,6.938927 7.636715,15.483367 7.946224,23.929664c-1.482061,11.453804 -8.311719,23.533306 -20.08954,26.795121c-10.181565,3.080649 -20.656847,-0.826246 -29.529372,-5.796667c-1.083746,-0.232586 -5.058783,-3.364271 -3.483368,-0.930478c5.304277,10.885224 11.115984,21.694007 19.532822,30.532195c0.494718,1.116721 4.374633,3.766138 2.309736,3.724045c-17.282214,0 -34.564375,0 -51.846601,0c1.847031,-1.452893 3.694132,-2.905824 5.541232,-4.358717l0,0.000004z" stroke-width="0" stroke="#000" fill="#000000"/>
+  <path id="club" onclick= "changeFortune(2), changeColor2(white)"d="m505.364193,135.009238c6.280074,-6.557886 11.609835,-14.368667 13.861028,-23.236912c-6.732143,5.11824 -12.906525,13.350621 -22.297518,13.038736c-7.089617,0.406902 -15.534962,0.413789 -20.525479,-5.515689c-11.15238,-8.968085 -14.148221,-26.892378 -4.99038,-38.305511c6.266902,-8.240732 17.210288,-11.73503 27.253153,-10.499016c6.327797,-2.684947 -1.237648,-9.48348 -1.998471,-13.726476c-4.709571,-15.390966 6.385367,-33.852145 22.699594,-35.625148c11.70149,-1.679923 23.140664,5.895136 28.866378,15.725949c3.111526,6.878799 1.490308,14.685747 0.76436,21.822027c-2.444599,3.586245 -8.705515,12.262305 0.229029,11.578922c8.833699,-0.139802 18.162197,2.453594 23.987222,9.478317c8.520148,9.460888 9.301683,25.095082 0.729539,34.762367c-4.534396,5.888282 -11.338682,10.601021 -19.039897,10.338643c-7.537691,0.760951 -15.699886,-0.874308 -21.044969,-6.617692c-2.279683,-1.597451 -7.865678,-7.632962 -7.86375,-6.309358c5.583348,11.63187 11.896891,23.711435 23.066127,30.919389c3.990673,3.208768 -6.078413,1.0027 -8.515962,1.6567c-14.768744,0.013052 -29.537425,0.026362 -44.306168,0.039476c3.042035,-3.174949 6.084261,-6.349761 9.126163,-9.524714l0,-0.000008z" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000"/>
+  <path id="diamond" onclick="changeFortune(3),changeColor3(white)"d="m0.000003,342.386344c10.093593,-22.360825 28.291808,-41.445803 43.773475,-60.386345c18.00962,12.154843 33.568921,38.895282 47.105618,57.519422c-12.073826,21.542122 -29.453859,41.161105 -45.11098,60.48058c-16.878661,-17.675509 -31.312662,-37.870131 -45.76811,-57.613656l-0.000004,0z" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#a10000"/>
+  <path id="heart" onclick="changeFortune(4), changeColor4(white)"d="m516.775157,390.494326c-25.561526,-19.004446 -34.70079,-31.026317 -34.774857,-45.743263c-0.067545,-13.416299 11.214402,-26.365003 22.906155,-26.290331c5.838339,0.037363 18.361949,4.975296 22.796602,8.988597c2.234439,2.022133 3.292778,1.82273 8.267518,-1.557694c13.539145,-9.200069 26.760257,-9.393175 35.322829,-0.51588c13.684811,14.187783 11.193341,31.130587 -7.162132,48.70485c-9.758825,9.343499 -31.069956,25.91939 -33.323777,25.91939c-0.685807,0 -7.000355,-4.277561 -14.032339,-9.505674l0,0.000003z" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#a10000"/>
+  <text data-vivaldi-spatnav-clickable="1" stroke="#000" transform="matrix(1.22482430934906,0,0,1.22482430934906,-46.4262198805809,-46.98828065395355) " xml:space="preserve" text-anchor="start" font-family="Verdana" font-size=" 16" id="text1" y="222.835564" x="70.60829" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">Click on a symbol to recieve your fate</text>
+ </g>
+</svg>
+</body>
+</html>
