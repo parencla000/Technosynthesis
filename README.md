@@ -9,6 +9,6 @@ Hello, and thank you for visiting this repository today.
 
 [Notes](https://parencla000.github.io/comp-sci-gen/analyticenginenotes "Notes")
 
-[Cards](https://parencla000.github.io/comp-sci-gen/cards "Cards")
+[Cards](https://parencla000.github.io/comp-sci-gen/card "Cards")
 
 
