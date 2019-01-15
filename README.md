@@ -20,6 +20,6 @@ Last semester, I created many amazing and cool programs. A few samples are here.
 
 [Buttons](https://parencla000.github.io/Technosynthetic-Hyperstition-/buttons.html)
 
-[Computer Languages](https://parencla000.github.io/Technosynthetic-Hyperstition-/computerlanguagesplus_copy.html)
+[Computer Languages](https://parencla000.github.io/Technosynthetic-Hyperstition-/computerlanguagesplus.html)
 
 [Hello World](https://parencla000.github.io/Technosynthetic-Hyperstition-/hello-world.html)
