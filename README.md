@@ -1,6 +1,9 @@
 Greetings, and thank you for visiting this updated repository today. 
 This repository is for my IB Computer Science Class.
 
+By Clay Parenti
+
+
 ### Automated Cybercalvinist Lexographic NeoPortals (Useful Links)
 
 [Syllabus](https://parencla000.github.io/Technosynthetic-Hyperstition-/IB-DP-CS-syllabus "Syllabus")
