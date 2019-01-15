@@ -1,10 +1,7 @@
-# Technosynthetic Hyperstition 
-Cybergothic Crypt of Retroqwertynomicoviral Ubernonsense 
-
 Greetings, and thank you for visiting this updated repository today. 
 This repository is for my IB Computer Science Class.
 
-These are some useful links for the class: 
+### Automated Cybercalvinist Lexographic NeoPortals (Useful Links)
 
 [Syllabus](https://parencla000.github.io/comp-sci-gen/IB-DP-CS-syllabus "Syllabus")
 
@@ -14,4 +11,7 @@ These are some useful links for the class:
 
 [Cards](https://parencla000.github.io/comp-sci-gen/card "Cards")
 
-Last semester, I created many amazing and cool things, like this fake programming language that I called arte. I used it to make a fake zodiac calculator using pseudocode. 
+### K-Replicating Hyperviral Nanoscriptures (Programs) 
+
+Last semester, I created many amazing and cool programs. A few choice samples are here, although I can't provide all of them on here. 
+
