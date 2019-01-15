@@ -1,7 +1,7 @@
-# comp-sci-gen
-First repository, for IB Computer Science
+# Technosynthetic Hyperstition 
+Cybergothic Crypt of Retroqwertynomicoviral Ubernonsense 
 
-Hello, and thank you for visiting this repository today. 
+Greetings, and thank you for visiting this updated repository today. 
 This repository is for my IB Computer Science Class.
 
 These are some useful links for the class: 
