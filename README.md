@@ -17,4 +17,4 @@ By Clay Parenti
 ### K-Replicating Hyperviral Nanoscriptures (Programs) 
 
 Last semester, I created many amazing and cool programs. A few choice samples are here, although I can't provide all of them on here. 
-[Buttons] (https://parencla000.github.io/Technosynthetic-Hyperstition-/buttons.html)
+[Buttons](https://parencla000.github.io/Technosynthetic-Hyperstition-/buttons.html)
