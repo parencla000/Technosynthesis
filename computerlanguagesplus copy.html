@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+Array Lingua Techica
+</title>
+<link rel="stylesheet" type="text/css" href="computerlanguagesplus.css">
+<script>
+
+var languages = [
+"Markup Language", "Markup Languages are languages that are used for writing documents to be dislayed by the computer. Usually, these languages are not considered true programming languages like other langauges. One commonly used markup language is HTML, which most of the modern web uses to display web pages. Other popular markup languages include its cousins XML, XHTML, as well as LaTeX and TeX. ", "High Level Programming Language", "A high level programming language is a programming language that provides a high level of abstraction compared to low level-languages, which more directly deal with the machine itself. Usually, high level programming languages can be run on nearly any machine, regardless of how the lower levels of the computer run. High level programming languages are often interpreted or compiled as lower level programming languages before being run. Due to a limited need to interact with the lower-levels of the machine, higher-level languages are usually easier to read and code. There are many popular high-level programming languages, including Python, Perl, C#, Ruby, COBOL, Fortran, and Javascript. (One popular high-level language, C, would be sometimes considered a mid-level language as it is closer to low level languages than to many of the other popular high level languages commonly in use).", "Low Level Programming Language", "Low level programming languages, which include Machine Code and  Assembly Languages, are programming languages with limited amounts of abstraction between themselves and the actual instructions given to the computer processor. Due to limited layers of abstraction, these languages usually run much faster than higher-level languages and use less memory, but on the other hand they are often much more difficult for humans to read, understand and program, as they are made for the processor to read rather than a person. The lowest levels of low-level programming are hexadecimals, and binary code, which is what the actual computer proccesses.", "Compiled Programming Language", "A compiled programming language is a programming language that is converted into a lower-level language that the computer interprets by means of a compiler, which is a translator that converts the higher-level program into a lower-level program before running it.", "Interpreted Programming Language", "An interpreted programming language is a programming language that, instead of using a compiler to process the entire code into machine language before running it, instead translates or 'interprets' each step of the language into machine code one step at a time while it is being run. Many programming languages can be both compiled or interpreted, depending on the needs and wishes of the person running it.", "Style Sheet Language","A stylesheet language is a type of computer language commonly used with a markup language. Style sheet languages dictate rules for how documents written in a markup language will be presented in terms of style, which is much faster and easier than to write the style instructions into the markup language itself. By far the most popular style sheet language used today is CSS, which stands for Cascading Style Sheets, a language used with HTML to dictate how HTML documents will appear when loaded in a webpage."
+]
+</script>
+<script>
+function changeLanguage(lang, words){
+document.getElementById("h1").innerHTML = languages [lang];
+document.getElementById("paragraph").innerHTML =languages [words];
+}
+</script>
+</head>
+<body>
+<center>
+<h1 id="h1">Different Types of Computer Languages</h1>
+</center>
+<center>
+<p id="paragraph">Welcome to Array Lingua Technica, a site dedicated to educating the public about the different types of computer languages. Click on a language below to learn about that language.</p>
+</center>
+<center>
+<button onclick="changeLanguage(0,1)">Markup Language</button>
+<button onclick="changeLanguage(2,3)">High Level Programming Language</button>
+<button onclick="changeLanguage(4,5)">Low Level Programming Language</button>
+<button onclick="changeLanguage(6,7)">Compiled Programming Language</button>
+<button onclick="changeLanguage(8,9)">Interpreted Programming Language</button>
+<button onclick="changeLanguage(10,11)">Style Sheet Language</button>
+</center>
+</body>
+</html>

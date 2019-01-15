@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+Programming Languages
+</title>
+<link rel="stylesheet" type ="text/css" href="stylesheet.css">
+<script>
+function callFunction(){
+document.getElementById("h1").innerHTML = "Javascript";
+document.getElementById("p1").innerHTML = "Javascript is an object oriented computer programming language that is often used for interactive effects run within web browsers. It is one of the most popular programming languages of the internet.";
+}
+</script>
+<script>
+function htmlFunction(){
+document.getElementById("h1").innerHTML = "HTML";
+document.getElementById("p1").innerHTML = "HTML stands for 'Hypertext Markup Language. It is a markup language used for creating most web pages on the internet. This page, for example, is an HTML file displayed within your web browser. As it is a markup language, it is not a programming language like Javascript. Instead, it is used to write and display documents.";
+}
+</script>
+<script>
+function cssFunction(){
+document.getElementById("h1").innerHTML = "CSS";
+document.getElementById("p1").innerHTML = "CSS stands for 'Cascading Style Sheets'. It is a style sheet language commonly used alongside HTML to change and regulate the presentation of HTML content. Most web pages on the internet are built upon a combination of HTML, CSS, and Javascipt. (If this page used CSS, it would probably look a lot nicer).";
+}
+</script>
+</head>
+<body>
+<center>
+<h1 id = "h1">
+The Computer Languages of the Web
+</h1>
+<p id = "p1">
+ Click to learn more about each computer language. 
+</p>
+<button onclick="callFunction()">Javascript</button>
+<button onclick="htmlFunction()">HTML</button>
+<button onclick="cssFunction()">CSS</button>
+</center>
+</body>
+</html>
