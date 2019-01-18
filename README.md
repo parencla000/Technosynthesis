@@ -24,4 +24,4 @@ I have created many amazing and cool programs. A few samples are here.
 
 [Hello World](https://parencla000.github.io/Technosynthesis/hello-world.html)
 
-[Chinese Zodiac](https://parencla000.github.io/Technosynthesis/Chinese_Zodiac.html)
+[Chinese Zodiac](https://parencla000.github.io/Technosynthesis/Chinese_Horoscope.html)
