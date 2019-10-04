@@ -39,3 +39,7 @@ This program will tell you your fortune, depending on which card suite you click
 [Chinese Zodiac](https://parencla000.github.io/Technosynthesis/Chinese_Horoscope.html)
 
 This program will tell you your Chinese zodiac sign based upon your year of birth. 
+
+[Create your own adventure](https://parencla000.github.io/Technosynthesis/yeet.html)
+The basic underlying structure for a javascript create your own adventure game, using a while loop so that players can restart without refreshing the page. 
+
